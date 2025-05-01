@@ -3,7 +3,7 @@ from google.genai import types
 from PIL import Image
 from io import BytesIO
 
-client = genai.Client(api_key="AIzaSyCKUEncSveW66mkjJUTjKLiPpAaRvd-OHQ")
+client = genai.Client(api_key="your_api_key")
 
 contents = ('Une maison futuriste flottant au-dessus des nuages, au coucher du soleil, style science-fiction')
 
